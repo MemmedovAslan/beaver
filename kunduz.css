@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.meydan{
+    width: 70%;
+    height: 100vh;
+    padding-top: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(0, 68, 255);
+}
+#kunduz{
+    width: 27%;
+    height: 255px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: red;
+}
+#kunduz img{
+    width: 100%;
+}
+#teklif{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+    background-color: white;
+    display: none;
+    z-index: 3;
+}
+#teklif h1{
+    font-size: 55px;
+    margin-bottom: 40px;
+    -webkit-text-stroke: rgb(0, 255, 0) 0.7px;
+}
+#teklif button{
+    font-size: 30px;
+}
+#davam{
+    margin-right: 50px;
+}
+.vaxt{
+    position: absolute;
+    width: 15%;
+    height: 200px;
+    top: 10%;
+    right: 0;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
